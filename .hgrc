@@ -1,0 +1,4 @@
+[ui]
+username = shian48263 <shian48263@gmail.com>
+ignore = ~/.hgignore_global
+editor = vim

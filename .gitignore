@@ -1,0 +1,9 @@
+.docker/config.json
+.env
+.gnupg/pubring.gpg
+.gnupg/secring.gpg
+.gnupg/trustdb.gpg
+.netrc
+.ssh/
+.subversion/auth/
+.vagrant.d/insecure_private_key

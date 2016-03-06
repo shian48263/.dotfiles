@@ -1,0 +1,16 @@
+"\e[5~": history-search-backward
+"\e[6~": history-search-forward
+"\e[H": beginning-of-line
+"\e[F": end-of-line
+set colored-stats on
+set completion-ignore-case on
+set mark-directories off
+set menu-complete-display-prefix on
+set show-all-if-ambiguous on
+TAB: menu-complete
+
+# set editing-mode vi
+# set keymap vi
+# set keymap vi-command
+# set keymap vi-insert
+# set keymap vi-move
