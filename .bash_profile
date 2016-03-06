@@ -10,6 +10,9 @@ export HISTFILESIZE=
 alias ls='gls --color=auto'
 eval $(gdircolors ~/GitHub/dircolors-solarized/dircolors.ansi-dark)
 
+# Docker
+# eval "$(docker-machine env default)"
+
 # Environment variables
 if [ -f ~/.env ]; then
   source ~/.env;
@@ -29,9 +32,6 @@ source $(brew --prefix nvm)/nvm.sh
 
 # rbenv
 eval "$(rbenv init -)"
-
-# Docker
-# eval "$(docker-machine env default)"
 
 # Vim
 # set -o vi
