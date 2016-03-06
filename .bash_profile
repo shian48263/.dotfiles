@@ -8,7 +8,7 @@ export HISTFILESIZE=
 
 # dircolors-solarized
 alias ls='gls --color=auto'
-eval $(gdircolors ~/GitHub/dircolors-solarized/dircolors.ansi-dark)
+eval $(gdircolors ~/.dircolors-solarized/dircolors.ansi-dark)
 
 # Docker
 # eval "$(docker-machine env default)"
