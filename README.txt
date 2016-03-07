@@ -1,11 +1,11 @@
 ln -s ~/Backups/.dotfiles ~/.dotfiles
 
 # ~
-.CFUserTextEncoding  -> ~/.dotfiles/.CFUserTextEncoding
 .aliases             -> ~/.dotfiles/.aliases
 .babel.json          -> ~/.dotfiles/.babel.json
 .bash_profile        -> ~/.dotfiles/.bash_profile
 .bashrc              -> ~/.dotfiles/.bashrc
+.CFUserTextEncoding  -> ~/.dotfiles/.CFUserTextEncoding
 .csslintrc           -> ~/.dotfiles/.csslintrc
 .editorconfig        -> ~/.dotfiles/.editorconfig
 .environment         -> ~/.dotfiles/.environment

@@ -1,19 +1,19 @@
-# ~/.aliases
+### ~/.aliases ###
 if [ -f ~/.aliases ]; then
   source ~/.aliases;
 fi
 
-# ~/.bashrc
+### ~/.bashrc ###
 if [ -f ~/.bashrc ]; then
   source ~/.bashrc;
 fi
 
-# ~/.environment
+### ~/.environment ###
 if [ -f ~/.environment ]; then
   source ~/.environment;
 fi
 
-# ~/.profile
+### ~/.profile ###
 if [ -f ~/.profile ]; then
   source ~/.profile;
 fi

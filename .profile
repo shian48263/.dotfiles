@@ -1,18 +1,18 @@
-# PATH
+### PATH ###
 export PATH=/usr/local/sbin:$PATH
 export PATH=~/.local/bin:$PATH
 
-# Docker
+### Docker ###
 # eval "$(docker-machine env default)"
 
-# jEnv
+### jEnv ###
 if which jenv > /dev/null; then
   eval "$(jenv init -)";
 fi
 
-# nvm
+### nvm ###
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
-# rbenv
+### rbenv ###
 eval "$(rbenv init -)"

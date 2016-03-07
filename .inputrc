@@ -1,4 +1,4 @@
-# Bash
+### Bash ###
 "\e[5~": history-search-backward
 "\e[6~": history-search-forward
 "\e[H": beginning-of-line
@@ -10,7 +10,7 @@ set menu-complete-display-prefix on
 set show-all-if-ambiguous on
 TAB: menu-complete
 
-# Vim
+### Vim ###
 # set editing-mode vi
 # set keymap vi
 # set keymap vi-command
