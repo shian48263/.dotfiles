@@ -33,9 +33,6 @@ config.json          -> ~/.dotfiles/.docker/config.json
 SessionDesktop.el    -> ~/.dotfiles/.emacs.d/SessionDesktop.el
 init.el              -> ~/.dotfiles/.emacs.d/init.el
 
-# ~/.gnupg
-~/.gnupg             -> ~/.dotfiles/.gnupg
-
 # ~/.jenv
 version              -> ~/.dotfiles/.jenv/version
 
@@ -47,12 +44,6 @@ alias                -> ~/.dotfiles/.nvm/alias
 
 # ~/.rbenv
 version              -> ~/.dotfiles/.rbenv/version
-
-# ~/.ssh
-~/.ssh               -> ~/.dotfiles/.ssh
-
-# ~/.subversion
-~/.subversion        -> ~/.dotfiles/.subversion
 
 # ~/.vagrant.d
 insecure_private_key -> ~/.dotfiles/.vagrant.d/insecure_private_key
