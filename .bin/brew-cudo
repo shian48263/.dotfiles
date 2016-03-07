@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+brew cask cleanup
+brew cleanup
+brew update
+brew cask doctor
+brew doctor
+brew outdated

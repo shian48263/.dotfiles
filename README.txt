@@ -4,7 +4,7 @@ ln -s ~/Backups/.dotfiles ~/.dotfiles
 .CFUserTextEncoding                -> ~/.dotfiles/.CFUserTextEncoding
 .babel.json                        -> ~/.dotfiles/.babel.json
 .bash_profile                      -> ~/.dotfiles/.bash_profile
-.bin                               -> ~/Backups/.bin
+.bin                               -> ~/.dotfiles/.bin
 .csslintrc                         -> ~/.dotfiles/.csslintrc
 .dircolors-solarized               -> ~/GitHub/dircolors-solarized
 .dotfiles                          -> ~/Backups/.dotfiles
