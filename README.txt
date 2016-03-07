@@ -48,6 +48,9 @@ version              -> ~/.dotfiles/.rbenv/version
 # ~/.vagrant.d
 insecure_private_key -> ~/.dotfiles/.vagrant.d/insecure_private_key
 
+# ~/GitHub
+README.txt           -> ~/.dotfiles/GitHub/README.txt
+
 # Shell scripts in ~/.local/bin/
 brew-cudo
 defaults-custom
