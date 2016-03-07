@@ -1,5 +1,5 @@
 .docker/config.json
-.env
+.environment
 .gnupg/pubring.gpg
 .gnupg/secring.gpg
 .gnupg/trustdb.gpg

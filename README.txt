@@ -2,11 +2,13 @@ ln -s ~/Backups/.dotfiles ~/.dotfiles
 
 # ~
 .CFUserTextEncoding  -> ~/.dotfiles/.CFUserTextEncoding
+.aliases             -> ~/.dotfiles/.aliases
 .babel.json          -> ~/.dotfiles/.babel.json
 .bash_profile        -> ~/.dotfiles/.bash_profile
+.bashrc              -> ~/.dotfiles/.bashrc
 .csslintrc           -> ~/.dotfiles/.csslintrc
 .editorconfig        -> ~/.dotfiles/.editorconfig
-.env                 -> ~/.dotfiles/.env
+.environment         -> ~/.dotfiles/.environment
 .gemrc               -> ~/.dotfiles/.gemrc
 .gitconfig           -> ~/.dotfiles/.gitconfig
 .gnupg               -> ~/.dotfiles/.gnupg
@@ -19,6 +21,7 @@ ln -s ~/Backups/.dotfiles ~/.dotfiles
 .mongorc.js          -> ~/.dotfiles/.mongorc.js
 .netrc               -> ~/.dotfiles/.netrc
 .nvmrc               -> ~/.dotfiles/.nvmrc
+.profile             -> ~/.dotfiles/.profile
 .railsrc             -> ~/.dotfiles/.railsrc
 .sass-lint.yml       -> ~/.dotfiles/.sass-lint.yml
 .ssh                 -> ~/.dotfiles/.ssh

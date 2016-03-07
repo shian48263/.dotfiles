@@ -1,0 +1,2 @@
+# dircolors-solarized
+alias ls='gls --color=auto'

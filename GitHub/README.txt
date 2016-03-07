@@ -1,6 +1,7 @@
 # GitHub/seebi/dircolors-solarized
 ~/.dircolors-solarized                   -> ~/GitHub/dircolors-solarized
-~/.bash_profile: eval $(gdircolors ~/.dircolors-solarized/dircolors.ansi-dark)
+~/.dircolors                             -> ~/.dircolors-solarized/dircolors.ansi-dark
+~/.bash_profile: eval $(gdircolors ~/.dircolors)
 
 # Gist/octocat/.gitignore
 ~/.gitignore                             -> ~/GitHub/.gitignore
