@@ -37,11 +37,18 @@ ln -s ~/Backups/.dotfiles ~/.dotfiles
 .vimrc                             -> ~/.dotfiles/.vimrc
 Backups                            -> ~/Google\ Drive/Backups
 
+# ~/.bin
+~/.bin                             -> ~/.dotfiles/.bin
+
+# ~/.bin/
+brew-cudo                          -> ~/.dotfiles/.bin/brew-cudo
+defaults-custom                    -> ~/.dotfiles/.bin/defaults-custom
+
 # ~/.docker
 config.json                        -> ~/.dotfiles/.docker/config.json
 
 # ~/.emacs.d
-SessionDesktop.el -> ~/.dotfiles/.emacs.d/SessionDesktop.el
+SessionDesktop.el                  -> ~/.dotfiles/.emacs.d/SessionDesktop.el
 init.el                            -> ~/.dotfiles/.emacs.d/init.el
 
 # ~/.gnupg
