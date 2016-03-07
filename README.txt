@@ -6,6 +6,7 @@ ln -s ~/Backups/.dotfiles ~/.dotfiles
 .bash_profile                      -> ~/.dotfiles/.bash_profile
 .bin                               -> ~/Backups/.bin
 .csslintrc                         -> ~/.dotfiles/.csslintrc
+.defaults                          -> ~/.dotfiles/.defaults
 .dircolors-solarized               -> ~/GitHub/dircolors-solarized
 .dotfiles                          -> ~/Backups/.dotfiles
 .editorconfig                      -> ~/.dotfiles/.editorconfig
