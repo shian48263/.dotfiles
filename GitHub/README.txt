@@ -1,21 +1,24 @@
-# dircolors-solarized
+# GitHub/seebi/dircolors-solarized
 ~/.dircolors-solarized                   -> ~/GitHub/dircolors-solarized
+~/.bash_profile: eval $(gdircolors ~/.dircolors-solarized/dircolors.ansi-dark)
 
-# .gitignore
+# Gist/octocat/.gitignore
 ~/.gitignore                             -> ~/GitHub/.gitignore
 ~/.gitignore_global                      -> ~/.gitignore/.gitignore
 
-# javascript
+# GitHub/airbnb/javascript
 ~/.javascript                            -> ~/GitHub/javascript
 ~/.jshintrc                              -> ~/.javascript/linters/.jshintrc
 
-# osx-terminal.app-colors-solarized
+# GitHub/tomislav/osx-terminal.app-colors-solarized
 ~/.osx-terminal.app-colors-solarized     -> ~/GitHub/osx-terminal.app-colors-solarized
+Terminal -> Preferences -> Profiles -> Import
 
-# solarized
+# GitHub/altercation/solarized
 ~/.solarized                             -> ~/GitHub/solarized
+iTerm -> Preferences -> Profiles -> Colors -> Load Presets... -> Import...
 
-# solarized-limechat
+# GitHub/paulcpederson/solarized-limechat
 ~/.solarized-limechat                    -> ~/GitHub/solarized-limechat
 limechat-themes=~/Library/Application\ Support/net.limechat.LimeChat-AppStore/Themes
 ${limechat-themes}/Solarized\ Dark.css   -> ~/.solarized-limechat/Solarized\ Dark.css
