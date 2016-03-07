@@ -1,6 +1,6 @@
 # Bash
 export PATH=/usr/local/sbin:$PATH
-export PATH=~/.bin:$PATH
+export PATH=~/.local/bin:$PATH
 export VISUAL=vim
 export EDITOR="$VISUAL"
 export HISTSIZE=
