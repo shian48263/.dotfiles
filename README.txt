@@ -5,6 +5,7 @@ ln -s ~/Backups/.dotfiles ~/.dotfiles
 .babel.json          -> ~/.dotfiles/.babel.json
 .bash_profile        -> ~/.dotfiles/.bash_profile
 .bashrc              -> ~/.dotfiles/.bashrc
+.brew-aliases        -> ~/.dotfiles/.brew-aliases
 .CFUserTextEncoding  -> ~/.dotfiles/.CFUserTextEncoding
 .csslintrc           -> ~/.dotfiles/.csslintrc
 .editorconfig        -> ~/.dotfiles/.editorconfig
