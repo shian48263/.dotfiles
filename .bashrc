@@ -12,5 +12,10 @@ fi
 ### dircolors-solarized ###
 eval $(gdircolors ~/.dircolors)
 
+### homebrew-command-not-found ###
+if brew command command-not-found-init > /dev/null; then
+  eval "$(brew command-not-found-init)"
+fi
+
 ### Vim ###
 # set -o vi
