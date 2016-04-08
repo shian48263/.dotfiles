@@ -10,7 +10,7 @@
   tool = vimdiff
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [filter "lfs"]
   clean = git-lfs clean %f
   smudge = git-lfs smudge %f
@@ -23,3 +23,4 @@
 [user]
   name = shian48263
   email = shian48263@gmail.com
+  signingkey = EB120D53
