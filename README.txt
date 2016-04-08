@@ -2,7 +2,6 @@ ln -s ~/Backups/.dotfiles ~/.dotfiles
 
 # ~
 .aliases             -> ~/.dotfiles/.aliases
-.babel.json          -> ~/.dotfiles/.babel.json
 .bash_profile        -> ~/.dotfiles/.bash_profile
 .bashrc              -> ~/.dotfiles/.bashrc
 .brew-aliases        -> ~/.dotfiles/.brew-aliases
