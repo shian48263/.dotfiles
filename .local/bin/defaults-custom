@@ -3,7 +3,7 @@
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
 ## com.apple.DiskUtility
-# Enable Debug menu in Desk Utility
+# Enable Debug menu in Disk Utility
 defaults write com.apple.DiskUtility DUDebugMenuEnabled -bool true
 
 ## com.apple.finder
@@ -33,6 +33,14 @@ defaults write com.apple.Safari IncludeInternalDebugMenu -bool true && \
 defaults write com.apple.Safari IncludeDevelopMenu -bool true && \
 defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true && \
 defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true && \
+defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
+
+## com.apple.SafariTechnologyPreview
+# Enable the Develop menu and the Web Inspector in Safari
+defaults write com.apple.SafariTechnologyPreview IncludeInternalDebugMenu -bool true && \
+defaults write com.apple.SafariTechnologyPreview IncludeDevelopMenu -bool true && \
+defaults write com.apple.SafariTechnologyPreview WebKitDeveloperExtrasEnabledPreferenceKey -bool true && \
+defaults write com.apple.SafariTechnologyPreview com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true && \
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
 ## com.apple.SoftwareUpdate
