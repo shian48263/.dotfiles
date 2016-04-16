@@ -41,6 +41,7 @@ version              -> ~/.dotfiles/.jenv/version
 
 # ~/.local
 bin                  -> ~/.dotfiles/.local/bin
+Cellar               -> ~/.dotfiles/.local/Cellar
 
 # ~/.nvm
 alias                -> ~/.dotfiles/.nvm/alias
@@ -57,3 +58,7 @@ README.txt           -> ~/.dotfiles/GitHub/README.txt
 # Shell scripts in ~/.local/bin/
 brew-cudo
 defaults-custom
+
+# Directories in ~/.local/Cellar/
+clamav
+mongodb

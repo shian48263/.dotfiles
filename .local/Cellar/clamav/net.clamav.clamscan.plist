@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>net.clamav.clamscan</string>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/usr/local/bin/clamscan</string>
+      <string>-i</string>
+      <string>-r</string>
+      <string>--bell</string>
+      <string>--log=/usr/local/var/log/clamav/clamscan.log</string>
+      <string>--exclude-dir=^/Volumes/Time\ Machine$</string>
+      <string>/</string>
+    </array>
+    <key>StartCalendarInterval</key>
+    <array>
+      <dict>
+        <key>Weekday</key>
+        <integer>6</integer>
+        <key>Hour</key>
+        <integer>3</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+      </dict>
+    </array>
+  </dict>
+</plist>
