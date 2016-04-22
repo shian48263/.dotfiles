@@ -14,5 +14,10 @@ fi
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
+### pyenv ###
+if which pyenv > /dev/null; then
+  eval "$(pyenv init -)";
+fi
+
 ### rbenv ###
 eval "$(rbenv init -)"
