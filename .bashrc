@@ -2,6 +2,7 @@
 export EDITOR="$VISUAL"
 export HISTSIZE=
 export HISTFILESIZE=
+export HOMEBREW_NO_ANALYTICS=1
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export VISUAL=vim
