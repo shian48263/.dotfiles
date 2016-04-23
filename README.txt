@@ -42,6 +42,7 @@ version              -> ~/.dotfiles/.jenv/version
 # ~/.local
 bin                  -> ~/.dotfiles/.local/bin
 Cellar               -> ~/.dotfiles/.local/Cellar
+lib                  -> ~/.dotfiles/.local/lib
 
 # ~/.nvm
 alias                -> ~/.dotfiles/.nvm/alias
@@ -52,10 +53,13 @@ version              -> ~/.dotfiles/.rbenv/version
 # ~/.vagrant.d
 insecure_private_key -> ~/.dotfiles/.vagrant.d/insecure_private_key
 
-# Shell scripts in ~/.local/bin/
+# sh in ~/.local/bin/
 brew-cudo
 defaults-custom
 
-# Directories in ~/.local/Cellar/
+# dir in ~/.local/Cellar/
 clamav
 mongodb
+
+# dir in ~/.local/lib/
+python
