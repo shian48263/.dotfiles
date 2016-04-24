@@ -47,6 +47,9 @@ lib                  -> ~/.dotfiles/.local/lib
 # ~/.nvm
 alias                -> ~/.dotfiles/.nvm/alias
 
+# ~/.pyenv
+version              -> ~/.dotfiles/.pyenv/version
+
 # ~/.rbenv
 version              -> ~/.dotfiles/.rbenv/version
 
