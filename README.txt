@@ -42,7 +42,6 @@ version              -> ~/.dotfiles/.jenv/version
 # ~/.local
 bin                  -> ~/.dotfiles/.local/bin
 Cellar               -> ~/.dotfiles/.local/Cellar
-lib                  -> ~/.dotfiles/.local/lib
 
 # ~/.nvm
 alias                -> ~/.dotfiles/.nvm/alias
@@ -63,6 +62,3 @@ defaults-custom
 # dir in ~/.local/Cellar/
 clamav
 mongodb
-
-# dir in ~/.local/lib/
-python
