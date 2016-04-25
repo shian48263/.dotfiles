@@ -8,7 +8,7 @@ define([
     'codemirror/addon/selection/active-line',
     'codemirror/keymap/sublime'
   ],
-  function(cell, events, IPython) {
+  function(Jupyter, events, cell) {
     events.on('app_initialized.NotebookApp', function() {
       cell.Cell.options_default.cm_config.indentUnit = 2;
       cell.Cell.options_default.cm_config.keyMap = 'sublime';
@@ -24,7 +24,7 @@ define([
     });
     cell.Cell.options_default.cm_config.styleActiveLine = true;
     events.on('notebook_loaded.Notebook', function() {
-      IPython.notebook.set_autosave_interval(0);
+      Jupyter.notebook.set_autosave_interval(0);
     });
   }
 );
