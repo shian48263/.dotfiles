@@ -242,19 +242,19 @@ span .CodeMirror-line > span > span::-moz-selection {
 
 
 /* .CodeMirror div.CodeMirror-selected {
-  background: rgba(0, 0, 0, 0.10);
+  background: rgba(0, 0, 0, 0.15);
 }
 
 .CodeMirror .CodeMirror-line::selection,
 span .CodeMirror-line > span::selection,
 span .CodeMirror-line > span > span::selection {
-  background: rgba(0, 0, 0, 0.10);
+  background: rgba(0, 0, 0, 0.15);
 }
 
 .CodeMirror .CodeMirror-line::-moz-selection,
 span.cm-s-ligh .CodeMirror-line > span::-moz-selection,
 span.cm-s-ligh .CodeMirror-line > span > span::-moz-selection {
-  background: rgba(0, 0, 0, 0.10);
+  background: rgba(0, 0, 0, 0.15);
 } */
 
 
@@ -536,17 +536,17 @@ view-port
     background: rgba(255, 255, 255, 0.15);
   } */
   .CodeMirror div.CodeMirror-selected {
-    background: rgba(0, 0, 0, 0.10);
+    background: rgba(0, 0, 0, 0.15);
   }
   .CodeMirror .CodeMirror-line::selection,
   span .CodeMirror-line > span::selection,
   span .CodeMirror-line > span > span::selection {
-    background: rgba(0, 0, 0, 0.10);
+    background: rgba(0, 0, 0, 0.15);
   }
   .CodeMirror .CodeMirror-line::-moz-selection,
   span.cm-s-ligh .CodeMirror-line > span::-moz-selection,
   span.cm-s-ligh .CodeMirror-line > span > span::-moz-selection {
-    background: rgba(0, 0, 0, 0.10);
+    background: rgba(0, 0, 0, 0.15);
   }
   /* Editor styling */
   /* Little shadow on the view-port of the buffer view */
