@@ -39,6 +39,10 @@ init.el              -> ~/.dotfiles/.emacs.d/init.el
 # ~/.jenv
 version              -> ~/.dotfiles/.jenv/version
 
+# ~/.jupyter
+custom/              -> ~/.dotfiles/.jupyter/custom
+nbconfig/            -> ~/.dotfiles/.jupyter/nbconfig
+
 # ~/.local
 bin                  -> ~/.dotfiles/.local/bin
 Cellar               -> ~/.dotfiles/.local/Cellar
