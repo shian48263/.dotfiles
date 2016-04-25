@@ -40,13 +40,13 @@ init.el                    -> ~/.dotfiles/.emacs.d/init.el
 version                    -> ~/.dotfiles/.jenv/version
 
 # ~/.jupyter
-custom/                    -> ~/.dotfiles/.jupyter/custom
+custom/                    -> ~/.dotfiles/.jupyter/custom/
 jupyter_notebook_config.py -> ~/.dotfiles/.jupyter/jupyter_notebook_config.py
-nbconfig/                  -> ~/.dotfiles/.jupyter/nbconfig
+nbconfig/                  -> ~/.dotfiles/.jupyter/nbconfig/
 
 # ~/.local
-bin                        -> ~/.dotfiles/.local/bin
-Cellar                     -> ~/.dotfiles/.local/Cellar
+bin                        -> ~/.dotfiles/.local/bin/
+Cellar                     -> ~/.dotfiles/.local/Cellar/
 
 # ~/.nvm
 alias                      -> ~/.dotfiles/.nvm/alias
@@ -60,10 +60,10 @@ version                    -> ~/.dotfiles/.rbenv/version
 # ~/.vagrant.d
 insecure_private_key       -> ~/.dotfiles/.vagrant.d/insecure_private_key
 
-# sh in ~/.local/bin/
+# Shell scripts in ~/.local/bin/
 brew-cudo
 defaults-custom
 
-# dir in ~/.local/Cellar/
+# Directories in ~/.local/Cellar/
 clamav/
 mongodb/
