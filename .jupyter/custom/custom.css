@@ -227,34 +227,34 @@ http://ethanschoonover.com/solarized/img/solarized-palette.png
 }
 
 .CodeMirror div.CodeMirror-selected {
-  background: #073642;
+  background: rgba(255, 255, 255, 0.15);
 }
 
 .CodeMirror.CodeMirror::selection {
-  background: rgba(7, 54, 66, 0.99);
+  background: rgba(255, 255, 255, 0.15);
 }
 
 .CodeMirror .CodeMirror-line::-moz-selection,
 span .CodeMirror-line > span::-moz-selection,
 span .CodeMirror-line > span > span::-moz-selection {
-  background: rgba(7, 54, 66, 0.99);
+  background: rgba(255, 255, 255, 0.15);
 }
 
 
 /* .CodeMirror div.CodeMirror-selected {
-  background: #eee8d5;
+  background: rgba(0, 0, 0, 0.10);
 }
 
 .CodeMirror .CodeMirror-line::selection,
 span .CodeMirror-line > span::selection,
 span .CodeMirror-line > span > span::selection {
-  background: #eee8d5;
+  background: rgba(0, 0, 0, 0.10);
 }
 
 .CodeMirror .CodeMirror-line::-moz-selection,
 span.cm-s-ligh .CodeMirror-line > span::-moz-selection,
 span.cm-s-ligh .CodeMirror-line > span > span::-moz-selection {
-  background: #eee8d5;
+  background: rgba(0, 0, 0, 0.10);
 } */
 
 
@@ -523,30 +523,30 @@ view-port
     border-bottom: 1px dotted #dc322f;
   }
   /* .CodeMirror div.CodeMirror-selected {
-    background: #073642;
+    background: rgba(255, 255, 255, 0.15);
   }
 
   .CodeMirror.CodeMirror::selection {
-    background: rgba(7, 54, 66, 0.99);
+    background: rgba(255, 255, 255, 0.15);
   }
 
   .CodeMirror .CodeMirror-line::-moz-selection,
   span .CodeMirror-line > span::-moz-selection,
   span .CodeMirror-line > span > span::-moz-selection {
-    background: rgba(7, 54, 66, 0.99);
+    background: rgba(255, 255, 255, 0.15);
   } */
   .CodeMirror div.CodeMirror-selected {
-    background: #eee8d5;
+    background: rgba(0, 0, 0, 0.10);
   }
   .CodeMirror .CodeMirror-line::selection,
   span .CodeMirror-line > span::selection,
   span .CodeMirror-line > span > span::selection {
-    background: #eee8d5;
+    background: rgba(0, 0, 0, 0.10);
   }
   .CodeMirror .CodeMirror-line::-moz-selection,
   span.cm-s-ligh .CodeMirror-line > span::-moz-selection,
   span.cm-s-ligh .CodeMirror-line > span > span::-moz-selection {
-    background: #eee8d5;
+    background: rgba(0, 0, 0, 0.10);
   }
   /* Editor styling */
   /* Little shadow on the view-port of the buffer view */
