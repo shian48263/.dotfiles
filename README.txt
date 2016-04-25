@@ -45,8 +45,8 @@ jupyter_notebook_config.py -> ~/.dotfiles/.jupyter/jupyter_notebook_config.py
 nbconfig/                  -> ~/.dotfiles/.jupyter/nbconfig/
 
 # ~/.local
-bin                        -> ~/.dotfiles/.local/bin/
-Cellar                     -> ~/.dotfiles/.local/Cellar/
+bin/                       -> ~/.dotfiles/.local/bin/
+Cellar/                    -> ~/.dotfiles/.local/Cellar/
 
 # ~/.nvm
 alias                      -> ~/.dotfiles/.nvm/alias
