@@ -29,6 +29,7 @@ ln -s ~/Backups/.dotfiles ~/.dotfiles
 .tmux.conf                  -> ~/.dotfiles/.tmux.conf
 .vimrc                      -> ~/.dotfiles/.vimrc
 
+
 # ~/.docker
 config.json                 -> ~/.dotfiles/.docker/config.json
 
