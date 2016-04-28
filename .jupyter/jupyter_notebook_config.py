@@ -166,6 +166,7 @@ import os
 # c.NotebookApp.iopub_msg_rate_limit = 0
 
 # The IP address the notebook server will listen on.
+# c.NotebookApp.ip = 'localhost'
 c.NotebookApp.ip = '*'
 
 # Supply extra arguments that will be passed to Jinja environment.
@@ -216,6 +217,7 @@ c.NotebookApp.ip = '*'
 #   from notebook.auth import passwd; passwd()
 #
 # The string should be of the form type:salt:hashed-password.
+# c.NotebookApp.password = u''
 c.NotebookApp.password = os.environ['JUPYTER_PASSWORD'].decode('utf-8')
 
 # The port the notebook server will listen on.
