@@ -218,7 +218,7 @@ c.NotebookApp.ip = '*'
 #
 # The string should be of the form type:salt:hashed-password.
 # c.NotebookApp.password = u''
-c.NotebookApp.password = os.environ['JUPYTER_PASSWORD'].decode('utf-8')
+c.NotebookApp.password = os.environ['JUPYTER_PASSWORD']
 
 # The port the notebook server will listen on.
 # c.NotebookApp.port = 8888
