@@ -1,6 +1,7 @@
 ### PATH ###
 export PATH=/usr/local/sbin:$PATH
 export PATH=~/.local/bin:$PATH
+export PATH=~/.miniconda3/bin:$PATH
 
 ### Docker ###
 # eval "$(docker-machine env default)"
