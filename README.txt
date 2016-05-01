@@ -6,6 +6,7 @@ ln -s ~/Backups/.dotfiles ~/.dotfiles
 .bashrc                     -> ~/.dotfiles/.bashrc
 .brew-aliases               -> ~/.dotfiles/.brew-aliases
 .CFUserTextEncoding         -> ~/.dotfiles/.CFUserTextEncoding
+.condarc                    -> ~/.dotfiles/.condarc
 .continuum                  -> ~/.dotfiles/.continuum
 .csslintrc                  -> ~/.dotfiles/.csslintrc
 .editorconfig               -> ~/.dotfiles/.editorconfig
