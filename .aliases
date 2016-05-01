@@ -1,5 +1,5 @@
-### dircolors-solarized ###
-alias ls='gls --color=auto'
-
 ### Anaconda ###
 alias brew='env PATH=${PATH//$(conda info --root)\/bin:/} brew'
+
+### dircolors-solarized ###
+alias ls='gls --color=auto'
