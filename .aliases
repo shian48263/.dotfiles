@@ -1,8 +1,10 @@
 ### Anaconda ###
 alias brew="env PATH=${PATH//$(conda info --root)\/bin:/} brew"
 alias conda-pip="$(conda info --root)/bin/pip"
+alias conda-pip3="$(conda info --root)/bin/pip"
+alias conda-pip3.5="$(conda info --root)/bin/pip"
 conda() {
-  if [ "$1" == "pip" ]; then
+  if [ "$1" == "pip" ] || [ "$1" == "pip3" ] || [ "$1" == "pip3.5" ]; then
     command "$(conda info --root)/bin/pip" "${@:2}"
   else
     command conda "$@"
