@@ -1,5 +1,13 @@
 ### Anaconda ###
-alias brew='env PATH=${PATH//$(conda info --root)\/bin:/} brew'
+alias brew="env PATH=${PATH//$(conda info --root)\/bin:/} brew"
+alias conda-pip="$(conda info --root)/bin/pip"
+conda() {
+  if [ "$1" == "pip" ]; then
+    command "$(conda info --root)/bin/pip" "${@:2}"
+  else
+    command conda "$@"
+  fi
+}
 
 ### dircolors-solarized ###
-alias ls='gls --color=auto'
+alias ls="gls --color=auto"
