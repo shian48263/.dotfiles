@@ -1,5 +1,5 @@
 ### PATH ###
-export PATH=~/.miniconda3/bin:$PATH
+export PATH=~/.anaconda3/bin:$PATH
 export PATH=~/.local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 export PATH=/usr/local/bin:$PATH
