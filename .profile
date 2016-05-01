@@ -10,9 +10,6 @@ fi
 export NVM_DIR=~/.nvm
 source "$(brew --prefix nvm)/nvm.sh"
 
-### PATH ###
-export PATH=~/.local/bin:$PATH
-
 ### jEnv ###
 if which jenv > /dev/null; then
   eval "$(jenv init -)";
@@ -23,5 +20,6 @@ fi
 
 ### PATH ###
 export PATH=~/.anaconda/bin:$PATH
+export PATH=~/.local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 export PATH=/usr/local/bin:$PATH
