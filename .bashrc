@@ -44,5 +44,11 @@ if brew command command-not-found-init > /dev/null; then
   eval "$(brew command-not-found-init)"
 fi
 
+### lunchy ###
+LUNCHY_DIR=$(dirname 'gem which lunchy')/../extras
+if [ -f $LUNCHY_DIR/lunchy-completion.bash ]; then
+  source $LUNCHY_DIR/lunchy-completion.bash
+fi
+
 ### Vim ###
 # set -o vi
