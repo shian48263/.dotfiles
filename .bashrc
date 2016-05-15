@@ -59,4 +59,6 @@ fi
 ### Yeoman ###
 # tabtab source for yo package
 # uninstall by removing these lines or running `tabtab uninstall yo`
-[ -f /usr/local/lib/node_modules/yo/node_modules/tabtab/.completions/yo.bash ] && . /usr/local/lib/node_modules/yo/node_modules/tabtab/.completions/yo.bash
+if [ -f /usr/local/lib/node_modules/yo/node_modules/tabtab/.completions/yo.bash ]; then
+  source /usr/local/lib/node_modules/yo/node_modules/tabtab/.completions/yo.bash
+fi
