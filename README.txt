@@ -23,6 +23,7 @@ ln -s ~/Backups/.dotfiles ~/.dotfiles
 .jsbeautifyrc               -> ~/.dotfiles/.jsbeautifyrc
 .mongorc.js                 -> ~/.dotfiles/.mongorc.js
 .netrc                      -> ~/.dotfiles/.netrc
+.npmignore                  -> ~/.dotfiles/.npmignore
 .nvmrc                      -> ~/.dotfiles/.nvmrc
 .profile                    -> ~/.dotfiles/.profile
 .railsrc                    -> ~/.dotfiles/.railsrc
