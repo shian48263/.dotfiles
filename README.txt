@@ -5,6 +5,7 @@ ln -s ~/Backups/.dotfiles ~/.dotfiles
 .aws                        -> ~/.dotfiles/.aws
 .bash_profile               -> ~/.dotfiles/.bash_profile
 .bashrc                     -> ~/.dotfiles/.bashrc
+.berkshelf                  -> ~/.dotfiles/.berkshelf
 .brew-aliases               -> ~/.dotfiles/.brew-aliases
 .CFUserTextEncoding         -> ~/.dotfiles/.CFUserTextEncoding
 .condarc                    -> ~/.dotfiles/.condarc
