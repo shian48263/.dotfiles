@@ -28,6 +28,7 @@ ln -s ~/Backups/.dotfiles ~/.dotfiles
 .profile                    -> ~/.dotfiles/.profile
 .railsrc                    -> ~/.dotfiles/.railsrc
 .sass-lint.yml              -> ~/.dotfiles/.sass-lint.yml
+.spyder2                    -> ~/.dotfiles/.spyder2
 .ssh                        -> ~/.dotfiles/.ssh
 .subversion                 -> ~/.dotfiles/.subversion
 .tmux.conf                  -> ~/.dotfiles/.tmux.conf
