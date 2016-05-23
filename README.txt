@@ -1,7 +1,7 @@
 ln -s ~/Backups/.dotfiles ~/.dotfiles
 
 # ~
-.aliases                    -> ~/.dotfiles/.aliases
+.aliases                    -> ~/.dotfiles/.aliase
 .aws                        -> ~/.dotfiles/.aws
 .bash_profile               -> ~/.dotfiles/.bash_profile
 .bashrc                     -> ~/.dotfiles/.bashrc
