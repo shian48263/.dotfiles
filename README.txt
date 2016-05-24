@@ -30,6 +30,7 @@ ln -s ~/Backups/.dotfiles ~/.dotfiles
 .sass-lint.yml              -> ~/.dotfiles/.sass-lint.yml
 .spyder2                    -> ~/.dotfiles/.spyder2
 .ssh                        -> ~/.dotfiles/.ssh
+.stCommitMsg                -> ~/.dotfiles/.stCommitMsg
 .subversion                 -> ~/.dotfiles/.subversion
 .tmux.conf                  -> ~/.dotfiles/.tmux.conf
 .vimrc                      -> ~/.dotfiles/.vimrc
