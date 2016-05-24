@@ -1,26 +1,28 @@
 [color]
-  ui = auto
+	ui = auto
 [core]
-  autocrlf = input
-  excludesfile = /Users/shian48263/.gitignore_global
-  editor = vim
+	autocrlf = input
+	excludesfile = /Users/shian48263/.gitignore_global
+	editor = vim
 [credential]
-  helper = osxkeychain
+	helper = osxkeychain
 [diff]
-  tool = vimdiff
+	tool = vimdiff
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
 [filter "lfs"]
-  clean = git-lfs clean %f
-  smudge = git-lfs smudge %f
-  required = true
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
 [merge]
-  tool = vimdiff
+	tool = vimdiff
 [mergetool "sourcetree"]
 	cmd = /opt/homebrew-cask/Caskroom/sourcetree/2.3/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [user]
-  name = shian48263
-  email = shian48263@gmail.com
-  signingkey = EB120D53
+	name = shian48263
+	email = shian48263@gmail.com
+	signingkey = EB120D53
+[commit]
+	template = /Users/shian48263/.stCommitMsg
