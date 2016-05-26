@@ -25,6 +25,7 @@ ln -s ~/Backups/.dotfiles ~/.dotfiles
 .netrc                      -> ~/.dotfiles/.netrc
 .npmignore                  -> ~/.dotfiles/.npmignore
 .nvmrc                      -> ~/.dotfiles/.nvmrc
+.openshift                  -> ~/.dotfiles/.openshift
 .profile                    -> ~/.dotfiles/.profile
 .railsrc                    -> ~/.dotfiles/.railsrc
 .sass-lint.yml              -> ~/.dotfiles/.sass-lint.yml
@@ -56,6 +57,9 @@ Cellar/                     -> ~/.dotfiles/.local/Cellar/
 
 # ~/.nvm
 alias                       -> ~/.dotfiles/.nvm/alias
+
+# ~/.openshift
+express.conf                -> ~/.dotfiles/.openshift/express.conf
 
 # ~/.pyenv
 version                     -> ~/.dotfiles/.pyenv/version
