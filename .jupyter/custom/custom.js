@@ -10,11 +10,14 @@ define([
   ],
   function(Jupyter, events, cell) {
     events.on('app_initialized.NotebookApp', function() {
-      cell.Cell.options_default.cm_config.indentUnit = 2;
+      cell.Cell.options_default.cm_config.indentUnit = 4;
       cell.Cell.options_default.cm_config.keyMap = 'sublime';
       cell.Cell.options_default.cm_config.lineNumbers = true;
       cell.Cell.options_default.cm_config.lineWrapping = true;
       cell.Cell.options_default.cm_config.rulers = [{
+        column: 72,
+        className: 'ipynb_ruler'
+      }, {
         column: 79,
         className: 'ipynb_ruler'
       }, {
