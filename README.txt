@@ -12,6 +12,7 @@ ln -s ~/Backups/.dotfiles ~/.dotfiles
 .csslintrc                  -> ~/.dotfiles/.csslintrc
 .editorconfig               -> ~/.dotfiles/.editorconfig
 .environment                -> ~/.dotfiles/.environment
+.gdriveignore               -> ~/.dotfiles/.gdriveignore
 .gemrc                      -> ~/.dotfiles/.gemrc
 .gitconfig                  -> ~/.dotfiles/.gitconfig
 .gnupg                      -> ~/.dotfiles/.gnupg
