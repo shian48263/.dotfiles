@@ -27,6 +27,7 @@ ln -s ~/Backups/.dotfiles ~/.dotfiles
 .npmignore                  -> ~/.dotfiles/.npmignore
 .nvmrc                      -> ~/.dotfiles/.nvmrc
 .openshift                  -> ~/.dotfiles/.openshift
+.pgpass                     -> ~/.dotfiles/.pgpass
 .profile                    -> ~/.dotfiles/.profile
 .railsrc                    -> ~/.dotfiles/.railsrc
 .sass-lint.yml              -> ~/.dotfiles/.sass-lint.yml

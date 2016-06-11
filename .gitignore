@@ -7,6 +7,7 @@
 .gnupg/secring.gpg
 .gnupg/trustdb.gpg
 .netrc
+.pgpass
 .ssh/
 .subversion/auth/
 .vagrant.d/insecure_private_key
