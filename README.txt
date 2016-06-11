@@ -31,6 +31,7 @@ ln -s ~/Backups/.dotfiles ~/.dotfiles
 .railsrc                    -> ~/.dotfiles/.railsrc
 .sass-lint.yml              -> ~/.dotfiles/.sass-lint.yml
 .spyder2                    -> ~/.dotfiles/.spyder2
+.sqltabs                    -> ~/.dotfiles/.sqltabs
 .ssh                        -> ~/.dotfiles/.ssh
 .stCommitMsg                -> ~/.dotfiles/.stCommitMsg
 .subversion                 -> ~/.dotfiles/.subversion
@@ -67,6 +68,9 @@ version                     -> ~/.dotfiles/.pyenv/version
 
 # ~/.rbenv
 version                     -> ~/.dotfiles/.rbenv/version
+
+# ~/.sqltabs
+config.json                 -> ~/.dotfiles/.sqltabs/config.json
 
 # ~/.vagrant.d
 insecure_private_key        -> ~/.dotfiles/.vagrant.d/insecure_private_key
