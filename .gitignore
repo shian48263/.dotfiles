@@ -1,5 +1,5 @@
 .aws/
-.continuum
+.continuum/
 .docker/config.json
 .environment
 .gnupg/pubring.gpg
