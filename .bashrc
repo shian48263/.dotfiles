@@ -8,7 +8,7 @@ export VISUAL=vim
 export EDITOR="$VISUAL"
 
 ### AWS Command Line Interface ###
-complete -C '/usr/local/bin/aws_completer' aws
+complete -C aws_completer aws
 
 ### bash-completion ###
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
