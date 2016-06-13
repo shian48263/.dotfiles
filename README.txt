@@ -2,6 +2,8 @@ ln -s ~/Backups/.dotfiles ~/.dotfiles
 
 # ~
 .aliases                    -> ~/.dotfiles/.aliases
+.ansible                    -> ~/.dotfiles/.ansible
+.ansible.cfg                -> ~/.dotfiles/.ansible.cfg
 .aws                        -> ~/.dotfiles/.aws
 .bash_profile               -> ~/.dotfiles/.bash_profile
 .bashrc                     -> ~/.dotfiles/.bashrc
@@ -38,6 +40,9 @@ ln -s ~/Backups/.dotfiles ~/.dotfiles
 .subversion                 -> ~/.dotfiles/.subversion
 .tmux.conf                  -> ~/.dotfiles/.tmux.conf
 .vimrc                      -> ~/.dotfiles/.vimrc
+
+# ~/.ansible
+hosts                       -> ~/.dotfiles/.ansible/hosts
 
 # ~/.docker
 config.json                 -> ~/.dotfiles/.docker/config.json

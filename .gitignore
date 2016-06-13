@@ -1,3 +1,4 @@
+.ansible/hosts
 .aws/
 .continuum/
 .docker/config.json
