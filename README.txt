@@ -1,4 +1,5 @@
 ln -s ~/Backups/.dotfiles ~/.dotfiles
+ln -s ~/.dotfiles ~/Projects/shian48263/.dotfiles
 
 # ~
 .aliases                    -> ~/.dotfiles/.aliases
