@@ -8,6 +8,7 @@ ln -s ~/.dotfiles ~/Projects/shian48263/.dotfiles
 .aws                        -> ~/.dotfiles/.aws
 .bash_profile               -> ~/.dotfiles/.bash_profile
 .bashrc                     -> ~/.dotfiles/.bashrc
+.bitbar                     -> ~/.dotfiles/.bitbar
 .brew-aliases               -> ~/.dotfiles/.brew-aliases
 .CFUserTextEncoding         -> ~/.dotfiles/.CFUserTextEncoding
 .condarc                    -> ~/.dotfiles/.condarc
@@ -34,6 +35,7 @@ ln -s ~/.dotfiles ~/Projects/shian48263/.dotfiles
 .profile                    -> ~/.dotfiles/.profile
 .railsrc                    -> ~/.dotfiles/.railsrc
 .sass-lint.yml              -> ~/.dotfiles/.sass-lint.yml
+.shuttle.json               -> ~/.dotfiles/.shuttle.json
 .spyder2                    -> ~/.dotfiles/.spyder2
 .sqltabs                    -> ~/.dotfiles/.sqltabs
 .ssh                        -> ~/.dotfiles/.ssh
