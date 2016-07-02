@@ -39,6 +39,8 @@ ln -s ~/.dotfiles ~/Projects/shian48263/.dotfiles
 .spyder2                    -> ~/.dotfiles/.spyder2
 .sqltabs                    -> ~/.dotfiles/.sqltabs
 .ssh                        -> ~/.dotfiles/.ssh
+.sshrc                      -> ~/.dotfiles/.sshrc
+.sshrc.d                    -> ~/.dotfiles/.sshrc.d
 .stCommitMsg                -> ~/.dotfiles/.stCommitMsg
 .subversion                 -> ~/.dotfiles/.subversion
 .tmux.conf                  -> ~/.dotfiles/.tmux.conf
