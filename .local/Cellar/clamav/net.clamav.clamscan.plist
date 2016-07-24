@@ -13,6 +13,7 @@
       <string>--bell</string>
       <string>--log=/usr/local/var/log/clamav/clamscan.log</string>
       <string>--exclude-dir=^/Volumes/Time\ Machine$</string>
+      <string>--exclude-dir=^/Volumes/TOSHIBA\ EXT$</string>
       <string>/</string>
     </array>
     <key>StartCalendarInterval</key>
