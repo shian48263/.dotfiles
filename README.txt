@@ -29,6 +29,7 @@ ln -s ~/.dotfiles ~/Projects/shian48263/.dotfiles
 .mongorc.js                 -> ~/.dotfiles/.mongorc.js
 .netrc                      -> ~/.dotfiles/.netrc
 .npmignore                  -> ~/.dotfiles/.npmignore
+.npmrc                      -> ~/.dotfiles/.npmrc
 .nvmrc                      -> ~/.dotfiles/.nvmrc
 .openshift                  -> ~/.dotfiles/.openshift
 .pgpass                     -> ~/.dotfiles/.pgpass
